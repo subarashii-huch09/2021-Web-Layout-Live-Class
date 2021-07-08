@@ -1,0 +1,145 @@
+body {
+  font-size: 24px;
+  line-height: 36px;
+  font-style: "PingFang TC";
+  font-weight: 300;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 95px;
+  font-style: "SF Pro Text";
+  border-bottom: 5px solid black;
+  padding-bottom: 24px;
+  padding-top: 40px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 45px;
+  color: #000000;
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+  margin-top: 72px;
+  margin-bottom: 16px;
+}
+
+span {
+  padding-left: 16px;
+  color: #a00404;
+  font-size: 24px;
+  line-height: 29px;
+  font-style: "SF Pro Text";
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 24px;
+}
+
+.profileImage {
+  width: 324px;
+  height: 324px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.profile-section h2,
+.education-section h2 {
+  margin-top: 48px;
+}
+
+.skill-section {
+  background-color: #415165;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 52px;
+}
+
+.skill-section h2,
+.skill-section span {
+  color: white;
+  padding-top: 20px;
+}
+
+.skill-section h2 {
+  border-bottom: 2px solid white;
+  width: 996px;
+  margin: 0 auto;
+}
+
+.skill-section li {
+  border-left: 1px white solid;
+  margin-left: 30px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  width: 220px;
+  margin: 0 auto;
+}
+
+.skill-section ul {
+  margin-top: 24px;
+}
+
+.workExp-section li {
+  font-weight: 800;
+  padding: 15px;
+  border-left: 1px solid grey;
+  margin-left: 20px;
+}
+
+.workExp-section p {
+  width: 642px;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: "蘋方-繁";
+  font-weight: lighter;
+}
+
+.contact {
+  background-color: #415165;
+  padding-top: 24px;
+  margin-top: 48px;
+}
+
+.contact h2 {
+  border-bottom: 1px solid white;
+  width: 1200px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+.contact span {
+  color: white;
+}
+
+.contact ul {
+  margin-top: 32px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+.contact li {
+  margin-bottom: 15px;
+}
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: orange;
+}
+.socialMediaLink {
+  display: flex;
+  justify-content: center;
+}
+.contact img {
+  padding-right: 20px;
+}
