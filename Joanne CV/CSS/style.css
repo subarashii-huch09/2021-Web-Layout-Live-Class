@@ -1,3 +1,9 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 24px;
   line-height: 36px;
@@ -25,7 +31,7 @@ h2 {
   color: #000000;
   border-bottom: 1px solid black;
   padding-bottom: 8px;
-  margin-top: 72px;
+  margin-top: 48px;
   margin-bottom: 16px;
 }
 
@@ -49,11 +55,6 @@ p {
   margin-bottom: 48px;
 }
 
-.profile-section h2,
-.education-section h2 {
-  margin-top: 48px;
-}
-
 .skill-section {
   background-color: #415165;
   color: #ffffff;
@@ -75,9 +76,9 @@ p {
 
 .skill-section li {
   border-left: 1px white solid;
-  margin-left: 30px;
+  margin-left: 24px;
   padding-left: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   width: 220px;
   margin: 0 auto;
 }
@@ -90,7 +91,11 @@ p {
   font-weight: 800;
   padding: 15px;
   border-left: 1px solid grey;
-  margin-left: 20px;
+  margin-left: 24px;
+}
+
+.workExp-section ul {
+  padding-top: 20px;
 }
 
 .workExp-section p {
@@ -110,9 +115,9 @@ p {
 .contact h2 {
   border-bottom: 1px solid white;
   width: 1200px;
-  margin: 0 auto;
   color: white;
   text-align: center;
+  margin: 0 auto;
 }
 
 .contact span {
@@ -120,13 +125,12 @@ p {
 }
 
 .contact ul {
-  margin-top: 32px;
   text-align: center;
-  color: white;
   padding: 10px;
+  color: white;
 }
 .contact li {
-  margin-bottom: 15px;
+  padding: 5px;
 }
 .contact a {
   color: white;
@@ -138,7 +142,7 @@ p {
 }
 .socialMediaLink {
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 .contact img {
   padding-right: 20px;
