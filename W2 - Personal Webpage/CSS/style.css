@@ -1,52 +1,54 @@
 /* 載入字體 */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* 全域設定 */
-*, *:before, *:after{
-box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
 body {
   /* font-style */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-style:italic;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-style: italic;
   font-size: 24px;
   line-height: 42px;
 }
 
 img {
   max-width: 100%;
-  height:auto;
-  display:block;
+  height: auto;
+  display: block;
 }
 .font-Medium {
-  font:normal medium;
+  font: normal medium;
   font-size: 64px;
   line-height: 84px;
 }
 
 .font-Bold {
-  font:normal bold;
+  font: normal bold;
 }
 
-.flexcolumncc{
-  display:flex;
+.flexcolumncc {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
-.mb-56{
+.mb-56 {
   margin-bottom: 56px;
 }
 
 .white {
-  color:white;
+  color: white;
 }
 
 .top {
@@ -66,7 +68,7 @@ h1 {
   font-size: 80px;
   line-height: 106px;
   margin-bottom: 32px;
-  font-weight:900;
+  font-weight: 900;
 }
 
 .top-content p {
@@ -74,35 +76,34 @@ h1 {
   line-height: 36px;
 }
 
-.socialMedia{
-  display:flex;
-  justify-content:center;
+.socialMedia {
+  display: flex;
+  justify-content: center;
 }
 
-.socialMedia li{
-margin-right:16px;
+.socialMedia li {
+  margin-right: 16px;
 }
 
 .socialMedia img:hover {
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
 }
 
 .about h2 {
   margin-bottom: 40px;
 }
 
-.about .about-info{
+.about .about-info {
   border-bottom: 1px solid #000;
   padding-bottom: 24px;
   margin-bottom: 28px;
   margin-top: 20px;
 }
 
-
 /* 這段紅點點的程式碼是我從Ｓlack 複製過來的，還在學習了解為何這樣寫 ：） */
 .about-exp li::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 22px;
   height: 22px;
@@ -113,7 +114,7 @@ margin-right:16px;
 }
 
 .myBrand {
-  background:black;
+  background: black;
   padding-top: 56px;
   padding-bottom: 160px;
 }
@@ -126,9 +127,9 @@ margin-right:16px;
   margin-bottom: 32px;
 }
 .myBrand p {
-font-size: 20px;
-line-height: 30px;
-margin-bottom: 68px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 68px;
 }
 
 .image-top {
@@ -154,34 +155,33 @@ margin-bottom: 68px;
 
 .OtherWorks-images {
   width: 1200px;
-  display:flex;
-  flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 h4 {
   margin-bottom: 48px;
-  color:black;
+  color: black;
 }
 
 .OtherWorks-images a {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .OtherWorks-images li h4:hover {
-  color:maroon;
+  color: maroon;
 }
 
 .contact {
   background-color: black;
-  padding:64px;
+  padding: 64px;
 }
 
 .contact a {
-  text-decoration: none;  
+  text-decoration: none;
 }
 
-.contact a:hover{
-  color:grey;
+.contact a:hover {
+  color: maroon;
 }
-
