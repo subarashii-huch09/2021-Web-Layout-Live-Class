@@ -6,8 +6,8 @@
 
 body {
   font-size: 24px;
-  line-height: 36px;
-  font-style: "PingFang TC";
+  line-height: 1.5;
+  font-family: "PingFang TC" "sans-serif";
   font-weight: 300;
 }
 
@@ -20,7 +20,7 @@ h1 {
   font-size: 80px;
   line-height: 95px;
   font-style: "SF Pro Text";
-  border-bottom: 5px solid black;
+  border-bottom: 2px solid black;
   padding-bottom: 24px;
   padding-top: 40px;
 }
@@ -64,7 +64,6 @@ p {
 
 .skill-section h2,
 .skill-section span {
-  color: white;
   padding-top: 20px;
 }
 
@@ -72,12 +71,12 @@ p {
   border-bottom: 2px solid white;
   width: 996px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .skill-section li {
   border-left: 1px white solid;
   margin-left: 24px;
-  padding-left: 10px;
   padding-bottom: 10px;
   width: 220px;
   margin: 0 auto;
@@ -85,6 +84,8 @@ p {
 
 .skill-section ul {
   margin-top: 24px;
+  text-align: left;
+  padding-left: 10px;
 }
 
 .workExp-section li {
